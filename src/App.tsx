@@ -1,10 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import TodoList from './features/TodoList/TodoList';
 
 function App() {
   return (
-    <div>
+    <div className="App">
+      <TodoList />
     </div>
   );
 }
